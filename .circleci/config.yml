@@ -6,9 +6,13 @@ jobs:
         steps:
             - checkout  # checkout source code to working directory
             - run:
-                name: install dependencies
+                name: Install dependencies
                 command: |
                     python -m virtualenv venv
                     . venv/bin/activate
                     pip install --no-cache-dir -r requirements.txt
-            - run: pytest
+            - run: 
+                name: Running tests
+                command: |
+                    . venv/bin/activate
+                    pytest
