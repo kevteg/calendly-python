@@ -5,5 +5,9 @@ jobs:
             - image: circleci/python:latest
         steps:
             - checkout  # checkout source code to working directory
-            - run: pip install --no-cache-dir -r requirements.txt
+            - run:
+                name: install dependencies
+                command: |
+                    python -m virtualenv venv
+                    pip install --no-cache-dir -r requirements.txt
             - run: pytest
