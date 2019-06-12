@@ -118,7 +118,7 @@ def get_response(payload):
 
 @pytest.fixture
 def fake_requests(monkeypatch):
-    def method_payload(payload=None):
+    def method_payload(payload={}):
         def fake_method(url, json, headers):
             return get_response(payload)
 
