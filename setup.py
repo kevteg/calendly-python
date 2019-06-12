@@ -22,7 +22,7 @@ setup(
     author_email='kevteg05@gmail.com',
     license='MIT',
     packages=[
-        'calendly_client',
+        'calendly',
     ],
     install_requires=[
         'requests'
