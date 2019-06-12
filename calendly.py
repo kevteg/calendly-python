@@ -1,9 +1,9 @@
 from requests.auth import HTTPBasicAuth
-from utils.constants import WEBHOOK, ME, ECHO
-from utils.requests import CaRequest
+from .utils.constants import WEBHOOK, ME, ECHO
+from .utils.requests import CaRequest
 
 
-class calendly(object):
+class Calendly(object):
 
     event_types_def = {
         "canceled": "invitee.canceled",

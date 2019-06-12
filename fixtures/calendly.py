@@ -1,6 +1,6 @@
 import pytest
 import json
-from calendly_client import calendly
+from ..calendly import Calendly
 
 
 about_me_payload = {
@@ -161,5 +161,5 @@ def fake_create_webhook(fake_requests):
 @pytest.fixture
 def calendly_client():
     api_key = '123abc'
-    return calendly(api_key)
+    return Calendly(api_key)
     

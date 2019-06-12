@@ -1,1 +1,1 @@
-from fixtures.calendly import *
+from .fixtures.calendly import *
