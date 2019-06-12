@@ -13,8 +13,11 @@ setup(
     description="A Python wrapper for the Calendly API  (https://developer.calendly.com/docs/)",
     long_description=readme(),
     classifiers=[
-        'License :: MIT License',
-        'Programming Language :: Python :: 3.7'
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3.4",
+        "Programming Language :: Python :: 3.5",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7"
     ],
     keywords='Calendly python api',
     url='https://github.com/kevteg/calendly-python',
