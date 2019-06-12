@@ -1,7 +1,7 @@
 from requests.auth import HTTPBasicAuth
 from json import JSONDecodeError
-from .utils.constants import WEBHOOK, ME, ECHO
-from .utils.requests import CaRequest
+from calendly.utils.constants import WEBHOOK, ME, ECHO
+from calendly.utils.requests import CaRequest
 
 
 class Calendly(object):

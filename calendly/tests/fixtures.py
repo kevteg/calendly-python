@@ -1,6 +1,6 @@
 import pytest
 import json
-from ..calendly import Calendly
+from calendly import Calendly
 
 
 about_me_payload = {
