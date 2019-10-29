@@ -56,5 +56,6 @@ See [Calendly docs](https://developer.calendly.com/docs/getting-your-authenticat
 
 ### TODOs:
 Next steps for this package:
-- [ ] Improve how the methods return the responses, proccess Calendly responses and make them objects, so that users can manage the information in an easier way
+- [ ] Improve how the methods return the responses: proccess Calendly responses and make them objects, so that users can manage the information in an easier way
 - [ ] Support for version 2 <3
+- [ ] Creating reusable exceptions for error messages
