@@ -9,9 +9,10 @@ def readme():
 
 setup(
     name='calendly',
-    version='1.1',
+    version='1.1.1',
     description="A Python wrapper for the Calendly API  (https://developer.calendly.com/docs/)",
     long_description=readme(),
+    long_description_content_type="text/markdown",
     classifiers=[
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3.4",
