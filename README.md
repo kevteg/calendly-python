@@ -21,6 +21,10 @@ See [Calendly docs](https://developer.calendly.com/docs/getting-your-authenticat
 
 	calendly.echo()
 
+#### Get list of events
+
+    calendly.events()
+
 #### Webhooks
 ##### Create A Webhook Subscription
 
