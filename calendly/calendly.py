@@ -1,6 +1,6 @@
 from requests.auth import HTTPBasicAuth
 from json import JSONDecodeError
-from calendly.utils.constants import WEBHOOK, ME, ECHO
+from calendly.utils.constants import WEBHOOK, ME, ECHO, EVENTS
 from calendly.utils.requests import CaRequest
 
 
@@ -51,3 +51,6 @@ class Calendly(object):
         response = self.request.get(ECHO)
         return response.json()
 
+    def events(self):
+        response = self.request.get(EVENTS)
+        return response.json()
